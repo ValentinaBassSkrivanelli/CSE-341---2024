@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
-// const swaggerAutogen = requiere('swagger-autogen')();
+const swaggerAutogen = requiere('swagger-autogen')();
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger.json');
 
